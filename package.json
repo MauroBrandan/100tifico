@@ -4,7 +4,8 @@
   "description": "Proyecto de una single page application en JavaScript Vanilla, con llamados a la API de Rick and Morty para mostrar información y navegar entre los detalles de cada personaje.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack serve --open -mode development"
   },
   "keywords": [
     "javascript",
@@ -16,8 +17,9 @@
     "@babel/core": "^7.12.10",
     "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^4.5.0",
-    "webpack": "^5.11.1",
+    "webpack": "^4.44.2",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
-  }
+  },
+  "dependencies": {}
 }
