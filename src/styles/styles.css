@@ -26,6 +26,34 @@ body {
   justify-content: center;
 }
 
+.Search {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Search input{
+  width: 50%;
+  padding: 1em;
+  border-radius: 2em;
+  margin-bottom: 1em;
+}
+
+.Search input:focus{
+  outline-style: none;
+}
+
+.Search button{
+  width: 20%;
+  padding: 0.5em;
+  border-radius: 2em;
+}
+
+.Search button:focus{
+  outline-style: none;
+}
+
 .Characters {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
