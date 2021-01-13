@@ -126,6 +126,18 @@ body {
   color: #026C86;
 }
 
+.Footer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: #026C86;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
