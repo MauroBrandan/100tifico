@@ -26,6 +26,34 @@ body {
   justify-content: center;
 }
 
+.Search {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Search input{
+  width: 50%;
+  padding: 1em;
+  border-radius: 2em;
+  margin-bottom: 1em;
+}
+
+.Search input:focus{
+  outline-style: none;
+}
+
+.Search button{
+  width: 20%;
+  padding: 0.5em;
+  border-radius: 2em;
+}
+
+.Search button:focus{
+  outline-style: none;
+}
+
 .Characters {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
@@ -98,6 +126,18 @@ body {
   color: #026C86;
 }
 
+.Footer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: #026C86;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
@@ -119,4 +159,11 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+ 
+.Error404 {
+  margin: 10em;
+  display: flex;
+  justify-content: center;
+  animation: spin 3s linear infinite;
 }
