@@ -5,9 +5,10 @@ async function idSearch (search){
     
     if (parseInt(search) > count || parseInt(search) <= 0){
         alert(`Solo hay ${count} personajes, empezando por el 1`)
+    } else{
+        window.location.hash = `/${search}`
     }
-        
-    window.location.hash = `/${search}`
+
 }
 
 export default idSearch
